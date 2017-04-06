@@ -7,19 +7,25 @@
 
 
 ************* Spring Boot Application w/ following dependencies *************
+
 * JPA
 * REST
 * H2
 
 
 
-**************************** Building and Running ***************************
+********************************** Building *********************************
+
 * Use gradle wrapper to build the project
 * Example:
-* open a terminal
+* pen a terminal
 * navigate to your workspace
 * $ cd collegeCourses/
 * $ ./gradlew build
+
+
+
+*********************************** Running *********************************
 
 * Run the app
 * Example:
@@ -31,8 +37,8 @@
 * GET http://localhost:8080/student/
 * GET http://localhost:8080/course/
 
-* Note: tests are ran when you perform the above build ($ ./gradlew build)
-* Can also view results in collegeCourses/build/reports/tests/test/index.html
+* note: tests are ran when you perform the above build ($ ./gradlew build)
+* can also view results in collegeCourses/build/reports/tests/test/index.html
 
 
 
@@ -41,18 +47,12 @@
 POST
 http://localhost:8080/instructor/
 
-* Headers
-Accept: application/json
-Content-type: application/json
+* HEADERS
+* Accept: application/json
+* Content-type: application/json
 
-* Raw Payload
-{
-"firstName": "Matt",
-"lastName": "Damon",
-"age": 31,
-"gender": "MALE",
-"memberType": "INSTRUCTOR"
-}
+* PAYLOAD
+* {"firstName":"Matt","lastName":"Damon","age":31,"gender":"MALE","memberType":"INSTRUCTOR"}
 
 
 
@@ -68,19 +68,12 @@ http://localhost:8080/instructor/
 PUT
 http://localhost:8080/student/
 
-* Headers
-Accept: application/json
-Content-type: application/json
+* HEADERS
+* Accept: application/json
+* Content-type: application/json
 
-* Raw Payload
-{
-"id", 1,
-"firstName": "Tom",
-"lastName": "Hanks",
-"age": 21,
-"gender": "MALE",
-"memberType": "STUDENT"
-}
+* PAYLOAD
+* {"id":1,"firstName":"Tom","lastName":"Hanks","age":21,"gender":"MALE","memberType":"STUDENT"}
 
 
 
@@ -96,6 +89,6 @@ http://localhost:8080/student/1
 DELETE
 http://localhost:8080/course/1
 
-* Headers
-Accept: application/json
-Content-type: application/json
+* HEADERS
+* Accept: application/json
+* Content-type: application/json
