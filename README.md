@@ -18,7 +18,7 @@
 
 * Use gradle wrapper to build the project
 * Example:
-* pen a terminal
+* open a terminal
 * navigate to your workspace
 * $ cd collegeCourses/
 * $ ./gradlew build
@@ -29,7 +29,8 @@
 
 * Run the app
 * Example:
-* $ java -jar build/libs/collegeCourses-0.0.1-SNAPSHOT.jar
+* $ cd build/libs/
+* $ java -jar collegeCoursesTest-0.0.1-SNAPSHOT.jar
 
 * Navigate to an endpoint to make sure it is running
 * Example:
