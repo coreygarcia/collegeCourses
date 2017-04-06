@@ -38,14 +38,14 @@
 
 ********************** Example: Creating an Instructor ***********************
 
-*** Verb and Endpoint ***
-POST http://localhost:8080/instructor/
+POST
+http://localhost:8080/instructor/
 
-*** Raw Headers ***
+* Headers
 Accept: application/json
 Content-type: application/json
 
-*** Raw Payload ***
+* Raw Payload
 {
 "firstName": "Matt",
 "lastName": "Damon",
@@ -58,21 +58,21 @@ Content-type: application/json
 
 ************************ Example: List all Instructors *********************** 
 
-*** Verb and Endpoint ***
-GET http://localhost:8080/instructor/
+GET
+http://localhost:8080/instructor/
 
 
 
 ************************ Example: Updating a Student ************************* 
 
-*** Verb and Endpoint ***
-PUT http://localhost:8080/student/
+PUT
+http://localhost:8080/student/
 
-*** Raw Headers  ***
+* Headers
 Accept: application/json
 Content-type: application/json
 
-*** Raw Payload ***
+* Raw Payload
 {
 "id", 1,
 "firstName": "Tom",
@@ -86,16 +86,16 @@ Content-type: application/json
 
 ************************ Example: Get Student by Id *********************** 
 
-*** Verb and Endpoint ***
-GET http://localhost:8080/student/1
+GET
+http://localhost:8080/student/1
 
 
 
 ************************* Example: Deleting a Course ************************* 
 
-*** Verb and Endpoint ***
-DELETE http://localhost:8080/course/1
+DELETE
+http://localhost:8080/course/1
 
-*** Raw Headers  ***
+* Headers
 Accept: application/json
 Content-type: application/json
