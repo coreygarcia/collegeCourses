@@ -23,6 +23,8 @@
 * $ cd collegeCourses/
 * $ ./gradlew build
 
+* note: tests are ran when you perform the above build ($ ./gradlew build)
+* can also view results in collegeCourses/build/reports/tests/test/index.html
 
 
 *********************************** Running *********************************
@@ -30,16 +32,13 @@
 * Run the app
 * Example:
 * $ cd build/libs/
-* $ java -jar collegeCoursesTest-0.0.1-SNAPSHOT.jar
+* $ java -jar collegeCourses-0.0.1-SNAPSHOT.jar
 
 * Navigate to an endpoint to make sure it is running
 * Example:
 * GET http://localhost:8080/instructor/
 * GET http://localhost:8080/student/
 * GET http://localhost:8080/course/
-
-* note: tests are ran when you perform the above build ($ ./gradlew build)
-* can also view results in collegeCourses/build/reports/tests/test/index.html
 
 
 
